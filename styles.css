@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #8de75d95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    background: rgb(252, 252, 252);
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 1000px;
+    text-align: center;
+    border-bottom: #dd0202;
+}
+
+h2 {
+    margin-bottom: 50px;
+    color: black;
+    font-size: 60px;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 25px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 6px;
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button Style */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Extra Links */
+.extra-links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.extra-links a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
